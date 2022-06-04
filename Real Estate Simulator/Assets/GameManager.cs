@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
     List<GameObject> fullSlots;
     public float chancePerFrame = 0.05f;
     public GameObject estate;
-    public static int Money = 500;
+    public static float Money = 500;
     public static GameManager gameManager;
     // Start is called before the first frame update
     void Start()
@@ -23,7 +23,7 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         CreateEstates();
-        GameObject.FindGameObjectWithTag("TabelaMoney").GetComponent<TMPro.TextMeshProUGUI>().text = "Money" + Money.ToString("");
+        GameObject.FindGameObjectWithTag("TabelaMoney").GetComponent<TMPro.TextMeshProUGUI>().text = "Money" + Money.ToString("0.0");
     }
 
     void CreateEstates()
