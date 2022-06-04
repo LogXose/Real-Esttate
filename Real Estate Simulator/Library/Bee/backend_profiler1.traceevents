@@ -1,0 +1,517 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1654345100148401, "dur":1231, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654345100149637, "dur":38, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1654345100149683, "dur":11, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1654345100149695, "dur":519, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1654345100150239, "dur":429, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654345100150668, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654345100877302, "dur":324, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654345100877626, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654345100877639, "dur":40, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654345100877679, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654345100877686, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654345100877687, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654345100877693, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654345100877694, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654345100877699, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654345100877701, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654345100877706, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654345100877707, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654345100877714, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654345100877715, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654345100877720, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654345100877722, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654345100877727, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654345100877728, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654345100877732, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654345100877734, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654345100877738, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654345100877739, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654345100877744, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654345100877745, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654345100877751, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654345100877763, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654345100877766, "dur":1374, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1654345100150416, "dur":258, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654345100150676, "dur":4632, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654345100155316, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1654345100155321, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654345100156454, "dur":454, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1654345100156910, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1654345100156966, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654345100157157, "dur":9043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1654345100166203, "dur":6473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1654345100172678, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654345100172683, "dur":1095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1654345100173817, "dur":75202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator.exe" }}
+,{ "pid":12345, "tid":1, "ts":1654345100249021, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654345100249025, "dur":1710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator.exe" }}
+,{ "pid":12345, "tid":1, "ts":1654345100250782, "dur":30066, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654345100280851, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654345100280858, "dur":962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654345100281864, "dur":26496, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654345100308364, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654345100308371, "dur":1717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654345100310188, "dur":104222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654345100414434, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654345100414439, "dur":2993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654345100417470, "dur":20600, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654345100438076, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654345100438085, "dur":2771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654345100440900, "dur":23631, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654345100464534, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654345100464539, "dur":6442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654345100471033, "dur":19730, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654345100490769, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654345100490775, "dur":1052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654345100491868, "dur":36452, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654345100528324, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654345100528331, "dur":1265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654345100529634, "dur":14976, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654345100544616, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654345100544624, "dur":7823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654345100552491, "dur":26782, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654345100579280, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654345100579288, "dur":6294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654345100585630, "dur":66746, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654345100652383, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654345100652391, "dur":1917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654345100654344, "dur":97683, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654345100752030, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654345100752034, "dur":1305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654345100753371, "dur":123928, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654345100150470, "dur":218, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654345100150688, "dur":4637, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654345100155325, "dur":7242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1654345100162574, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654345100162582, "dur":3778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1654345100167536, "dur":80962, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1654345100248505, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654345100248515, "dur":1372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1654345100249929, "dur":19090, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654345100269021, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654345100269086, "dur":706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654345100269830, "dur":18851, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654345100288687, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654345100288695, "dur":1539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654345100290274, "dur":22085, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654345100312365, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654345100312372, "dur":1035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654345100313447, "dur":117058, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654345100430511, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654345100430517, "dur":11136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654345100441700, "dur":22629, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654345100464415, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654345100464422, "dur":6289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654345100471407, "dur":20193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654345100491603, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654345100491609, "dur":779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654345100492426, "dur":97720, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654345100590149, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654345100590154, "dur":4092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654345100594295, "dur":58241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654345100652539, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654345100652544, "dur":1399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654345100653980, "dur":28274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654345100682259, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654345100682266, "dur":1073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654345100683377, "dur":29891, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654345100713273, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654345100713281, "dur":1169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654345100714486, "dur":120901, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654345100835391, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654345100835398, "dur":922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654345100836345, "dur":40964, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654345100150440, "dur":238, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654345100150678, "dur":4634, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654345100155317, "dur":23943, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1654345100179266, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654345100179499, "dur":70076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1654345100249626, "dur":18113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654345100267745, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654345100267987, "dur":818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654345100268840, "dur":27884, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654345100296729, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654345100296735, "dur":963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654345100297740, "dur":45995, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654345100343740, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654345100343747, "dur":4127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654345100347920, "dur":114864, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654345100462789, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654345100462794, "dur":3589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654345100466422, "dur":95738, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654345100562164, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654345100562188, "dur":3114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654345100565346, "dur":22955, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654345100588306, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654345100588314, "dur":1703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654345100590062, "dur":68477, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654345100658544, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654345100658551, "dur":6320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654345100664911, "dur":82498, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654345100747414, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654345100747422, "dur":1576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654345100749035, "dur":128265, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654345100150462, "dur":221, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654345100150683, "dur":4633, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654345100155319, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1654345100155522, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654345100157616, "dur":14491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1654345100172155, "dur":77968, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654345100250127, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654345100250466, "dur":1388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654345100251908, "dur":29635, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654345100281546, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654345100281551, "dur":797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654345100282376, "dur":17931, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654345100300313, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654345100300321, "dur":1450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654345100301811, "dur":18939, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654345100320756, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654345100320764, "dur":2289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654345100323097, "dur":17989, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654345100341093, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654345100341101, "dur":1194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654345100342332, "dur":29920, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654345100372258, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654345100372265, "dur":1955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654345100374263, "dur":23345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654345100397615, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654345100397623, "dur":930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654345100398591, "dur":17417, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654345100416012, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654345100416017, "dur":855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654345100416909, "dur":21160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654345100438077, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654345100438085, "dur":3899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654345100442022, "dur":20049, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654345100462077, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654345100462087, "dur":1074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654345100463198, "dur":21371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654345100484575, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654345100484583, "dur":1918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654345100486543, "dur":29721, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654345100516270, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654345100516279, "dur":7020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654345100523341, "dur":63117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654345100586462, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654345100586469, "dur":1335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654345100587847, "dur":47169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654345100635021, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654345100635029, "dur":929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654345100635996, "dur":146969, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654345100782969, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654345100782975, "dur":2474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654345100785479, "dur":91826, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1654345100150492, "dur":200, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1654345100150692, "dur":4621, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1654345100155317, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1654345100155551, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1654345100158311, "dur":12577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1654345100170939, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1654345100171084, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1654345100171089, "dur":78377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1654345100249557, "dur":52917, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1654345100302478, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1654345100302485, "dur":1054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1654345100303579, "dur":64596, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1654345100368179, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1654345100368187, "dur":6422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1654345100374651, "dur":25134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1654345100399790, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1654345100399797, "dur":1157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1654345100400996, "dur":42514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1654345100443515, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1654345100443521, "dur":10465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1654345100454024, "dur":57636, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1654345100511665, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1654345100511672, "dur":11875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1654345100523585, "dur":44918, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1654345100568507, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1654345100568513, "dur":1001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1654345100569551, "dur":7985, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":5, "ts":1654345100577543, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1654345100577552, "dur":4277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":5, "ts":1654345100581875, "dur":8269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1654345100590147, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1654345100590154, "dur":1610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1654345100591806, "dur":129166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1654345100720977, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1654345100720984, "dur":1700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1654345100722721, "dur":66505, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1654345100789230, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1654345100789236, "dur":915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1654345100790181, "dur":87131, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1654345100150512, "dur":184, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1654345100150696, "dur":4618, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1654345100155317, "dur":11679, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1654345100167000, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1654345100167005, "dur":4191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1654345100171253, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1654345100171542, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1654345100171548, "dur":4222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1654345100175813, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1654345100175920, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1654345100176147, "dur":76867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1654345100253061, "dur":20502, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1654345100273569, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1654345100273577, "dur":1253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1654345100274872, "dur":92261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1654345100367138, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1654345100367145, "dur":5192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1654345100372384, "dur":33238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1654345100405628, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1654345100405697, "dur":2079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1654345100407820, "dur":96407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1654345100504232, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1654345100504239, "dur":13737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1654345100518020, "dur":33570, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1654345100551597, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1654345100551605, "dur":1407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1654345100553052, "dur":748, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":6, "ts":1654345100553803, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1654345100553810, "dur":834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":6, "ts":1654345100554681, "dur":38143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1654345100592829, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1654345100592836, "dur":7374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1654345100600250, "dur":70234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1654345100670489, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1654345100670497, "dur":1094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1654345100671631, "dur":80632, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":6, "ts":1654345100752267, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1654345100752271, "dur":1185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":6, "ts":1654345100753492, "dur":123806, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1654345100150530, "dur":172, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1654345100150702, "dur":4617, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1654345100155321, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1654345100155501, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1654345100157553, "dur":191107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1654345100348704, "dur":44837, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1654345100393548, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1654345100393556, "dur":1565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1654345100395169, "dur":17256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1654345100412428, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1654345100412433, "dur":1647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1654345100414124, "dur":18237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1654345100432366, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1654345100432373, "dur":2400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1654345100434820, "dur":29052, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1654345100463876, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1654345100463880, "dur":2398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1654345100466320, "dur":20070, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1654345100486395, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1654345100486400, "dur":1324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1654345100487771, "dur":21655, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1654345100509431, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1654345100509439, "dur":7750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1654345100517230, "dur":23298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1654345100540533, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1654345100540539, "dur":876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1654345100541455, "dur":19023, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":7, "ts":1654345100560484, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1654345100560492, "dur":1338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":7, "ts":1654345100561867, "dur":8560, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1654345100570433, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1654345100570441, "dur":1828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1654345100572314, "dur":23289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1654345100595607, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1654345100595614, "dur":4308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1654345100599968, "dur":24351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1654345100624324, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1654345100624331, "dur":1347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1654345100625715, "dur":137847, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1654345100763567, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1654345100763574, "dur":1128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1654345100764730, "dur":112577, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1654345100150558, "dur":148, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1654345100150706, "dur":4612, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1654345100155321, "dur":11928, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1654345100167252, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1654345100167257, "dur":6185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1654345100173489, "dur":100382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1654345100273876, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1654345100273996, "dur":6390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1654345100280437, "dur":20011, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1654345100300452, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1654345100300456, "dur":998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1654345100301500, "dur":50449, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1654345100351955, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1654345100351962, "dur":957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1654345100352956, "dur":16443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1654345100369403, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1654345100369408, "dur":5647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1654345100375093, "dur":46269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1654345100421368, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1654345100421376, "dur":18160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1654345100439581, "dur":126549, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1654345100566134, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1654345100566141, "dur":1550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1654345100567732, "dur":36617, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1654345100604374, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1654345100604381, "dur":4909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1654345100609327, "dur":28219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1654345100637550, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1654345100637555, "dur":917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1654345100638509, "dur":129594, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1654345100768106, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1654345100768114, "dur":2028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1654345100770176, "dur":107138, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1654345100150583, "dur":126, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1654345100150709, "dur":4619, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1654345100155328, "dur":300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1654345100155632, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1654345100158027, "dur":198503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1654345100356578, "dur":51271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1654345100407852, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1654345100407859, "dur":990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1654345100408883, "dur":92444, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1654345100501333, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1654345100501342, "dur":17831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1654345100519212, "dur":69947, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":9, "ts":1654345100589164, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1654345100589169, "dur":5162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":9, "ts":1654345100594377, "dur":58554, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":9, "ts":1654345100652934, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1654345100652938, "dur":11142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":9, "ts":1654345100664123, "dur":87310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1654345100751437, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1654345100751444, "dur":1094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1654345100752575, "dur":124745, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1654345100150603, "dur":110, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1654345100150713, "dur":4611, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1654345100155324, "dur":533, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1654345100155860, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1654345100157446, "dur":8728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1654345100166216, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1654345100166344, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1654345100166427, "dur":7072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1654345100173549, "dur":150918, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":10, "ts":1654345100324470, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1654345100324475, "dur":21502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":10, "ts":1654345100346027, "dur":38225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1654345100384257, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1654345100384265, "dur":1472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1654345100385777, "dur":25876, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1654345100411657, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1654345100411663, "dur":2088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1654345100413796, "dur":28508, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1654345100442307, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1654345100442313, "dur":10670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1654345100453026, "dur":17153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1654345100470209, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1654345100470216, "dur":1663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1654345100471915, "dur":23151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1654345100495071, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1654345100495103, "dur":1514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1654345100496663, "dur":28905, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1654345100525572, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1654345100525578, "dur":1186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1654345100526864, "dur":199507, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":10, "ts":1654345100726376, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1654345100726383, "dur":1811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":10, "ts":1654345100728232, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":10, "ts":1654345100728345, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1654345100728670, "dur":685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":10, "ts":1654345100729388, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":10, "ts":1654345100729426, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1654345100729463, "dur":920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":10, "ts":1654345100730418, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1654345100730455, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1654345100730458, "dur":1336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1654345100731827, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":10, "ts":1654345100731865, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1654345100731869, "dur":1121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":10, "ts":1654345100733021, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":10, "ts":1654345100733132, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1654345100733136, "dur":693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":10, "ts":1654345100733861, "dur":1121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":10, "ts":1654345100734987, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1654345100734994, "dur":1814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":10, "ts":1654345100736850, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1654345100736895, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1654345100736902, "dur":2416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1654345100739357, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/resources.assets" }}
+,{ "pid":12345, "tid":10, "ts":1654345100739396, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1654345100739426, "dur":1207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/resources.assets" }}
+,{ "pid":12345, "tid":10, "ts":1654345100740664, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/level0.resS" }}
+,{ "pid":12345, "tid":10, "ts":1654345100740699, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1654345100740702, "dur":825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/level0.resS" }}
+,{ "pid":12345, "tid":10, "ts":1654345100741559, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/level0" }}
+,{ "pid":12345, "tid":10, "ts":1654345100741594, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1654345100741596, "dur":671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/level0" }}
+,{ "pid":12345, "tid":10, "ts":1654345100742299, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":10, "ts":1654345100742362, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1654345100742365, "dur":813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":10, "ts":1654345100743209, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":10, "ts":1654345100743245, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1654345100743248, "dur":802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":10, "ts":1654345100744090, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/boot.config" }}
+,{ "pid":12345, "tid":10, "ts":1654345100744200, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1654345100744203, "dur":696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/boot.config" }}
+,{ "pid":12345, "tid":10, "ts":1654345100744931, "dur":132371, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1654345100150657, "dur":63, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1654345100150720, "dur":4603, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1654345100155323, "dur":8087, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1654345100163412, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1654345100163417, "dur":1959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1654345100165442, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1654345100165607, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1654345100167771, "dur":5797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1654345100173615, "dur":77258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":11, "ts":1654345100250876, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1654345100250879, "dur":1893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":11, "ts":1654345100252823, "dur":31900, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1654345100284727, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1654345100284808, "dur":926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1654345100285770, "dur":21101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1654345100307269, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1654345100307281, "dur":1378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1654345100308714, "dur":54903, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1654345100363624, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1654345100363633, "dur":1692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1654345100365368, "dur":77641, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1654345100443035, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1654345100443040, "dur":11919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1654345100454997, "dur":24189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1654345100479192, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1654345100479200, "dur":3632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1654345100482869, "dur":55712, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1654345100538587, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1654345100538594, "dur":1201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1654345100539836, "dur":42710, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":11, "ts":1654345100582580, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1654345100582587, "dur":4200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":11, "ts":1654345100586851, "dur":179193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":11, "ts":1654345100766048, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1654345100766070, "dur":2591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":11, "ts":1654345100768694, "dur":108609, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1654345100150620, "dur":97, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1654345100150717, "dur":4604, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1654345100155324, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1654345100155550, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1654345100157677, "dur":11761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1654345100169496, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1654345100169706, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1654345100169761, "dur":189572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1654345100359397, "dur":49787, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1654345100409188, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1654345100409192, "dur":1047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1654345100410274, "dur":46868, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1654345100457147, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1654345100457156, "dur":1091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1654345100458291, "dur":54608, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":12, "ts":1654345100512903, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1654345100512908, "dur":11814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":12, "ts":1654345100524763, "dur":63819, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":12, "ts":1654345100588586, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1654345100588593, "dur":3176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":12, "ts":1654345100591807, "dur":108822, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":12, "ts":1654345100700635, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1654345100700642, "dur":1532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":12, "ts":1654345100702218, "dur":172296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Demo/Real Estate Simulator_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":12, "ts":1654345100874518, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1654345100874524, "dur":2723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Demo/Real Estate Simulator_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":12, "ts":1654345100877274, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":12, "ts":1654345100877276, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654345100880457, "dur":1522, "ph":"X", "name": "ProfilerWriteOutput" }
+,
